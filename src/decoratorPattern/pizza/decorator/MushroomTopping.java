@@ -2,11 +2,11 @@ package decoratorPattern.pizza.decorator;
 
 import decoratorPattern.pizza.BasePizza;
 
-public class CheeseTopping extends ToppingDecorator {
-    int cost = 50;
+public class MushroomTopping extends ToppingDecorator {
     BasePizza basePizza;
+    int cost = 25;
 
-    public CheeseTopping(BasePizza basePizza) {
+    MushroomTopping(BasePizza basePizza) {
         this.basePizza = basePizza;
     }
 
