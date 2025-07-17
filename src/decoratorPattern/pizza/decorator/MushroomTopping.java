@@ -6,7 +6,7 @@ public class MushroomTopping extends ToppingDecorator {
     BasePizza basePizza;
     int cost = 25;
 
-    MushroomTopping(BasePizza basePizza) {
+    public MushroomTopping(BasePizza basePizza) {
         this.basePizza = basePizza;
     }
 
